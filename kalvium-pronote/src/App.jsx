@@ -2,7 +2,6 @@ import React from "react";
 import "./App.css";
 import TodoItem from "./components/TodoItem";
 
-
 export default class App extends React.Component {
   constructor() {
     super();
@@ -62,7 +61,7 @@ export default class App extends React.Component {
           />
           <button className="btn"> ADD </button>
         </form>
-        {/* <p> My Input : {this.state.input}</p> */}
+        <p> My Input : {this.state.input}</p>
 
         <div className="todolist">
           <h2>L I S T</h2>
